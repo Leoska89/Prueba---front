@@ -1,0 +1,59 @@
+.dashboard{
+    background-color: #eeeeee;
+
+    .usuario{
+        background-color:white;
+
+        h4{
+            color:grey;
+            font-size: 16px;
+        }
+        hr{
+            margin-left: -15px;
+        }
+    }
+}
+.prueba{
+    font-size: 100px;
+}
+.container{    
+    padding:0;
+}
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1300px;
+    }
+}
+.busqueda{
+    margin-top: 50px;
+}
+.dasboard-header{
+    border-top-style: solid;
+    border-top-width: 4px;
+    background-color: #F7F7F7;
+
+    h3{ 
+        margin-left: 10px;
+        color:grey;
+        font-size: 23px;
+        margin-top: 5px;
+    }
+ 
+}
+.iconos-usuarios{
+    background-color: white;
+    border-right: 1px solid #E9ECEF;
+}
+.head-usuario{    
+    border-top-color: #ECC14A;
+    margin: 0;
+}
+.separador{
+    background-color: #E9ECEF;    
+}
+
+@keyframes animate {
+  0%   { background-position: left;  }
+  50%  { background-position: right; }
+  100% { background-position: right; }
+}
